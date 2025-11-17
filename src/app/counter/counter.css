@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f6f9;
+}
+
+.card {
+  background: white;
+  padding: 40px;
+  width: 360px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+.count-display {
+  font-size: 48px;
+  margin: 20px 0;
+  font-weight: bold;
+  color: #1a73e8;
+  transition: 0.2s ease-in-out;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  color: white;
+  transition: 0.2s;
+}
+
+.inc {
+  background: #34a853;
+}
+
+.dec {
+  background: #ea4335;
+}
+
+.reset {
+  background: #fbbc04;
+}
+
+.btn:hover {
+  opacity: 0.85;
+  transform: scale(1.05);
+}
+.btn:active {
+  transform: scale(0.95);
+}
